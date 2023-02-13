@@ -39,7 +39,20 @@
       <recent name="D:\Аляксей\Java\Праекты\MyFirstPrograms\FirstPrograms\src\by\itacademy\lesson2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fraction">
+  <component name="RunManager" selected="Application.Point">
+    <configuration name="AdditonalTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.lesson2.AdditonalTask1" />
+      <module name="FirstPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itacademy.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.itacademy.lesson5.Fraction" />
       <module name="FirstPrograms" />
@@ -53,16 +66,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task15" />
+    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.lesson2.Point" />
       <module name="FirstPrograms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task16" />
-      <module name="FirstPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itacademy.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Point" />
+        <item itemvalue="Application.AdditonalTask1" />
         <item itemvalue="Application.Fraction" />
         <item itemvalue="Application.Task18" />
         <item itemvalue="Application.Task17" />
-        <item itemvalue="Application.Task16" />
-        <item itemvalue="Application.Task15" />
       </list>
     </recent_temporary>
   </component>
