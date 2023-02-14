@@ -26,8 +26,22 @@ public class Fraction {
         }
     }
 
+    private static final String FRACTION_TEMPLATE = "%s/%s";
+    private static final String FRACTION_TEMPLATE2 = "%s";
+
+    public int getNumerator() {
+        return numerator;
+    }
+
+    public int getDenominator() {
+        return denominator;
+    }
+
     public String getFraction() {
-        return this.numerator + " / " + this.denominator;
+        if (this.numerator == 0 || this.denominator == 1) {
+            return FRACTION_TEMPLATE2.formatted(this.numerator);
+        }
+        return FRACTION_TEMPLATE.formatted(this.numerator, this.denominator);
     }
 
     public void reduceFraction() {
@@ -39,17 +53,16 @@ public class Fraction {
             this.numerator = -this.numerator;
         }
         min = Math.min(this.numerator, this.denominator);
-        while (number <= min / number) {
+        do {
             while (this.numerator % number == 0 && this.denominator % number == 0) {
                 this.numerator /= number;
                 this.denominator /= number;
             }
             number++;
-        }
+        } while (number <= min / number);
         if (sign == -1) {
             this.numerator = -this.numerator;
         }
-        return;
     }
 
     public int calculateNOK(int a, int b) {
@@ -76,7 +89,6 @@ public class Fraction {
                 fraction.numerator * nokOfDenominator / fraction.denominator;
         this.denominator = nokOfDenominator;
         reduceFraction();
-        return;
     }
 
     public void myltiplyByDouble(double number) {
@@ -88,10 +100,9 @@ public class Fraction {
         this.numerator *= number;
         this.denominator *= Math.pow(10, counter);
         reduceFraction();
-        return;
     }
 
-    public void dividelyByDouble(double number) {
+    public void divideByDouble(double number) {
         int counter = 0;
         while (number % 10 != 0) {
             number *= 10;
@@ -103,7 +114,6 @@ public class Fraction {
         }
         this.denominator *= Math.abs(number);
         reduceFraction();
-        return;
     }
 
     public static void main(String[] args) {
@@ -122,7 +132,7 @@ public class Fraction {
         System.out.println(f1.getFraction());
 
         System.out.print(f2.getFraction() + "  /  " + decimalFraction + " = ");
-        f2.dividelyByDouble(decimalFraction);
+        f2.divideByDouble(decimalFraction);
         System.out.println(f2.getFraction());
     }
 }

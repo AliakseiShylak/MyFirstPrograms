@@ -40,8 +40,21 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Point">
-    <configuration name="AdditonalTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.itacademy.lesson2.AdditonalTask1" />
+    <configuration name="AdditionalTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.lesson2.AdditionalTask1" />
+      <module name="FirstPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itacademy.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdditionalTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.lesson2.AdditionalTask2" />
       <module name="FirstPrograms" />
       <extension name="coverage">
         <pattern>
@@ -79,13 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task17" />
-      <module name="FirstPrograms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task18" />
       <module name="FirstPrograms" />
@@ -96,10 +102,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Point" />
-        <item itemvalue="Application.AdditonalTask1" />
         <item itemvalue="Application.Fraction" />
+        <item itemvalue="Application.AdditionalTask2" />
+        <item itemvalue="Application.AdditionalTask1" />
         <item itemvalue="Application.Task18" />
-        <item itemvalue="Application.Task17" />
       </list>
     </recent_temporary>
   </component>

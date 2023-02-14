@@ -8,7 +8,7 @@ package by.itacademy.lesson2;
 
 import java.util.Random;
 
-public class AdditonalTask1 {
+public class AdditionalTask1 {
     public static void main(String[] args) {
         Random random = new Random();
         int abcd = random.nextInt(9000) + 1000;
